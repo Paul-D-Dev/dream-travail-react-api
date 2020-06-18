@@ -7,7 +7,8 @@ const data =  {
             image: '/images/vietnam.jpg',
             price: 2499,
             rating: 4.5,
-            nbReviews: 10
+            nbReviews: 10,
+            quantity: 10
         },
         {
             id: 2,
@@ -16,7 +17,8 @@ const data =  {
             image: '/images/marocco.jpg',
             price: 299,
             rating: 4,
-            nbReviews: 21
+            nbReviews: 21,
+            quantity: 0
         },
         {
             id: 3,
@@ -25,7 +27,8 @@ const data =  {
             image: '/images/spain.jpg',
             price: 399,
             rating: 4.5,
-            nbReviews: 32
+            nbReviews: 32,
+            quantity: 5
         },
         {
             id: 4,
@@ -34,7 +37,8 @@ const data =  {
             image: '/images/paris.jpg',
             price: 249,
             rating: 3.5,
-            nbReviews: 18
+            nbReviews: 18,
+            quantity: 30
         },
         {
             id: 5,
@@ -43,7 +47,8 @@ const data =  {
             image: '/images/new-york.jpg',
             price: 2999,
             rating: 4.5,
-            nbReviews: 52
+            nbReviews: 52,
+            quantity: 1
         },
     ]
 }
