@@ -8,7 +8,7 @@ const data =  {
             price: 2499,
             rating: 4.5,
             nbReviews: 10,
-            quantity: 10
+            stock: 10
         },
         {
             id: 2,
@@ -18,7 +18,7 @@ const data =  {
             price: 299,
             rating: 4,
             nbReviews: 21,
-            quantity: 0
+            stock: 0
         },
         {
             id: 3,
@@ -28,7 +28,7 @@ const data =  {
             price: 399,
             rating: 4.5,
             nbReviews: 32,
-            quantity: 5
+            stock: 5
         },
         {
             id: 4,
@@ -38,7 +38,7 @@ const data =  {
             price: 249,
             rating: 3.5,
             nbReviews: 18,
-            quantity: 30
+            stock: 30
         },
         {
             id: 5,
@@ -48,7 +48,7 @@ const data =  {
             price: 2999,
             rating: 4.5,
             nbReviews: 52,
-            quantity: 1
+            stock: 1
         },
     ]
 }
