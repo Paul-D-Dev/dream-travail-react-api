@@ -38,7 +38,7 @@ router.post('/', async (req, res) => {
 })
 
 router.put('/:id', async (req, res) => {
-    const productId = req.body._id;
+    const productId = req.params.id;
     const product = await Product.findById(productId);
     
     if (product) {
