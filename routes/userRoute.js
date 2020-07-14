@@ -17,14 +17,14 @@ router.post('/register', async (req, res) => {
     
         if (newUser) {
             res.send({
-                _id: signinUser.id,
-                name: signinUser.name,
-                email: signinUser.email,
-                isAdmin : signinUser.isAdmin,
-                token: getToken(signinUser)
+                _id: newUser.id,
+                name: newUser.name,
+                email: newUser.email,
+                isAdmin : newUser.isAdmin,
+                token: getToken(newUser)
             })
         } else {
-            res.status(401).send({msg: 'Invalid email or password.'})
+            res.status(401).send({msg: 'Invalid user data.'})
         }
     } catch (error) {
         res.send({msg: error.message})
