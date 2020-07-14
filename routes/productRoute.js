@@ -60,4 +60,15 @@ router.put('/:id', async (req, res) => {
     }
 })
 
+router.delete('/:id', async (req, res) => {
+    const productId = req.params.id;
+    const product = await Product.findByIdAndDelete(productId);
+
+    if(product) {
+        return res.status(200).send({msg: 'Product deleted.'});
+    } else {
+        return res.status(500).send({msg: 'Error in deleting product.'});
+    }
+})
+
 export default router;
