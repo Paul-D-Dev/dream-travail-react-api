@@ -27,7 +27,7 @@ router.post('/register', async (req, res) => {
             res.status(401).send({msg: 'Invalid user data.'})
         }
     } catch (error) {
-        res.send({msg: error.message})
+        res.status(401).send({msg: error.message})
     }
     
 }) 
